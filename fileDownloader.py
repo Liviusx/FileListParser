@@ -1,5 +1,5 @@
 import time
-import siteParser
+import Components.siteParser as siteParser
 import pickle
 
 baseObject = {
