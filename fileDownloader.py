@@ -41,7 +41,7 @@ while True:
 
     print(items)
 
-    with open("d:/"+ items[0]["Name"] + ".torrent", "wb") as output:
-        output.write(site.downloadFile(items[0]))
+   # with open("d:/"+ items[0]["Name"] + ".torrent", "wb") as output:
+    #    output.write(site.downloadFile(items[0]))
 
     time.sleep(0.5)
